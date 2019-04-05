@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 var fs = require('fs');
 var _datadir = null;
 var secrets = JSON.parse(fs.readFileSync('secrets.txt', 'utf8'));
